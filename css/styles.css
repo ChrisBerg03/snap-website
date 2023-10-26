@@ -10,10 +10,6 @@ body {
     position: relative;
 }
 
-.container {
-
-}
-
 header {
     display: flex;
     flex-direction: row;
