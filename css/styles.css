@@ -4,10 +4,11 @@
 }
 
 body {
-    margin: 0;
-    width: 100vw ;
+    margin: 0 auto;
+    max-width: 100vw;
     height: 100vh;
     position: relative;
+    overflow: scroll;
 }
 
 header {
@@ -42,6 +43,40 @@ header {
     right: 0;
     display: none;
     position: absolute;
+}
+
+.hamburger-menu-open div {
+    text-align: center;
+}
+
+.hamburger-menu-open button {
+    padding: 13px 41.25px 13px 43.12px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #686868;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    border-radius: 14px;
+    width: 195px;
+}
+
+.hamburger-menu-open button:nth-child(1) {
+    border: none;
+}
+
+.menu-items {
+    list-style-type: none;
+    padding-left: 24px;
+}
+
+.item {
+    padding-top: 16px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #686868;
+    font-weight: 500;
 }
 
 main {
@@ -83,6 +118,10 @@ main button {
     width: 136px;
     height: 48px;
     margin-top: 24px;
+}
+
+main img {
+    width: 100vw;
 }
 
 footer {
